@@ -1,0 +1,29 @@
+.main {
+    @extend %section;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: var(--color-beckground-footer);
+    padding: 200px 0;
+    text-align: center;
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/main-bgd-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main__container {
+    @extend %container;
+}
+.main__title {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    max-width: 696px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}

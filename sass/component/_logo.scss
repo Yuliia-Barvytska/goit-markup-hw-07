@@ -1,0 +1,17 @@
+
+.logo--hedder {
+    @extend %logo;
+    margin-right: 93px;
+}
+
+.logo-web {
+    @extend %logo-web;
+}
+.logo--footer {
+    @extend %logo;
+    display: inline-block;
+    width: 145px;
+}
+.logo-studio {
+    color: var(--color-white);
+}
